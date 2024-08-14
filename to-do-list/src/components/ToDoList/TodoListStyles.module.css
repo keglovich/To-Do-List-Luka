@@ -1,0 +1,43 @@
+.listContainer {
+  display: flex;
+  flex-direction: row;
+  height: 98vh;
+
+  .wrapper {
+    border: 2px solid black;
+    height: 94%;
+    width: 50%;
+    border-radius: 20px;
+    background-color: white;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
+    .listNav {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 50px;
+      margin-top: 10px;
+      transform: scale(0.9);
+
+      .listNavItem {
+        background-color: #999999;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 10pt;
+        color: #fff;
+        text-decoration: none;
+      }
+
+      .listNavItem:hover {
+        transform: scale(1.05);
+        transition: 200ms;
+      }
+    }
+
+    hr {
+      border: 2px solid black;
+    }
+  }
+}

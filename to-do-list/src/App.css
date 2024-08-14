@@ -1,0 +1,25 @@
+:root {
+  --backgorund-color: #5271ff;
+}
+
+body {
+  background-color: var(--backgorund-color);
+  font-family: "Rubik";
+}
+
+#root {
+  gap: 20px;
+  display: flex;
+  height: 100vh;
+}
+
+#sidebar {
+  width: 20%;
+  height: 98vh;
+  margin: 5px 5px 10px;
+}
+
+#main-list {
+  width: 80%;
+  height: 98vh;
+}

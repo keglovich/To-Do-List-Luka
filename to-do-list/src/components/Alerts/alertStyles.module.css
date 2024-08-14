@@ -1,0 +1,15 @@
+.success {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 200px 300px;
+  margin: 15%;
+  border-radius: 50px;
+  left: 25%;
+  background-color: rgba(194, 194, 194, 0.8);
+  transition: 500ms;
+  img {
+    height: 25%;
+  }
+}
